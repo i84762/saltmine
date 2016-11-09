@@ -27,8 +27,6 @@ public class AppConfig extends WebMvcConfigurerAdapter
         		.addResourceLocations("/resources/");
         registry.addResourceHandler("/images/**")
 				.addResourceLocations("/resources/images/");
-//        registry.addResourceHandler("/pages/**")
-//        		.addResourceLocations("/pages/");
 	}
 	
 	@Bean
